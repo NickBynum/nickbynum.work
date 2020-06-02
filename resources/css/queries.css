@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1200px) {
+    .text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0, 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    .row {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    header {
+        background-image: url(img/header-mobile.jpg);
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .sample-showcase li {
+        width: 50%;        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row {
+        max-width: 100%;
+        padding: 0 2%;
+    }
+
+    .main-nav {
+        font-size: 80%;
+        margin: 5;
+    }
+    .text-box {
+        font-size: 70%;
+        padding: 0 4%;
+    }
+      .main-nav li {
+          display: inline-block;
+          margin-left: 10px;
+    }
+      .sample-showcase li {
+        width: 100%;        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
